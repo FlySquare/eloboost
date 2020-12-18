@@ -1,0 +1,202 @@
+/*
+Version: 1.7
+File Description: Place here your custom CSS styles
+*/
+.resim-ortala-gray{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(75%)
+}
+.resim-ortala-gray:hover{
+    filter: grayscale(0%)
+}
+.scrollToTop{
+    color: #ffffff;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #000000;
+    z-index: 1005;
+    display: none;
+}
+
+
+/* ÇEKİLİŞ */
+
+.cekilis-bar {
+    position: fixed;
+    bottom: 0;
+    right: 300px;
+    z-index: 999999999;
+    border-radius: 5px 5px 0px 0px;
+    font-family: 'Lato', "Open Sans", sans-serif;
+    font-size: 15px;
+    width: auto;
+    min-height: 40px !important;
+    max-height: 40px !important;
+  }
+
+  
+  /* Style the icon bar links */
+  .cekilis-bar a {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+    color: white;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .cekilis-bar a:hover {
+    text-decoration: none;
+  }
+  
+  .cekilis {
+    border-radius: 5px 5px 0px 0px;
+
+    background-color: #e74c3c;
+    animation: bg-color 20s infinite;
+    -webkit-animation: bg-color 20s infinite;
+  }
+
+  @keyframes bg-color
+  {
+    0%   {background: red;}
+    35%  {background: blue;}
+    70%  {background: green;}
+    100% {background: red;}
+  }
+
+  @-webkit-keyframes bg-color /* Safari and Chrome - necessary duplicate */
+  {
+    0%   {background: red;}
+    35%  {background: blue;}
+    70%  {background: green;}
+    100% {background: red;}
+  }
+  
+  
+  /* YENİ MENÜ0 */
+ .mtab img{
+     height: 75px;
+     width: 75px;
+     margin-right:auto;
+     margin-left:auto;
+ }
+  
+.mtab{ text-align: center; }
+.mtab .nav-tabs{
+    display: inline-block;
+    border-bottom: none;
+    position: relative;
+}
+.mtab .nav-tabs li{
+    margin-bottom: 0;
+}
+.mtab .nav-tabs li a{
+    display: block;
+    padding: 20px;
+    border: none;
+    border-radius: 0;
+    font-size: 17px;
+    font-weight: 700;
+    color: #444;
+    margin-right: 0;
+    text-align: center;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.mtab .nav-tabs li a i{
+    display: block;
+    font-size: 40px;
+    color: #00a6ff;
+    margin-bottom: 15px;
+}
+.mtab .nav-tabs li.mactive a,
+.mtab .nav-tabs li a:hover{
+    border: none;
+    background: transparent;
+}
+.mtab .nav-tabs li a:before,
+.mtab .nav-tabs li a:after{
+    content: "";
+    width: 0;
+    border-top: 3px solid #00a6ff;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+}
+.mtab .nav-tabs li a:after{
+    left: auto;
+    right: 0;
+}
+.mtab .nav-tabs li.mactive a:before,
+.mtab .nav-tabs li a:hover:before,
+.mtab .nav-tabs li.mactive a:after,
+.mtab .nav-tabs li a:hover:after{
+    width: 50%;
+}
+.mtab .mtab-content{
+    padding: 20px;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid #d7d6d6;
+    font-size: 15px;
+    color: #757575;
+    line-height: 30px;
+}
+.mtab .mtab-content h3{
+    font-size: 24px;
+    margin-top: 0;
+}
+@media only screen and (max-width: 479px){
+    .mtab .nav-tabs li{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .mtab .nav-tabs li a,
+    .mtab .nav-tabs li a:hover{ border-bottom: 1px solid #dfdfdf; }
+    .mtab .mtab-content{ border-top: none; }
+}
+
+.fakeh1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+
+  font-weight: bold;
+}
+.fakeh2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+
+  font-weight: bold;
+}
+.fakeh3 {
+  display: block;
+  font-size: 24px;
+  margin-top: 1em;
+  margin-bottom: 30px;
+}
+.faketitle {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bolder;
+}

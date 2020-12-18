@@ -1,0 +1,5 @@
+{
+    "require": {
+        "erkineren/shopier": "^0.2.1"
+    }
+}
