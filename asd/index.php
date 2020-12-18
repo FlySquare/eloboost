@@ -54,7 +54,7 @@ $shopier->setProductData('Cüzdan Bakiyesi', ProductType::DOWNLOADABLE_VIRTUAL);
 
 try {
 
-
+  $deger2 = ($deger1/100)*3;
         $kod = md5(rand(9999,999999999));
         $ayarkaydet=$db->prepare("INSERT INTO bolfps_bakiye SET
                bolfps_yukleyen=:bolfps_yukleyen,
@@ -76,7 +76,7 @@ try {
             WHERE user_id={$_POST['user_id']}");
 
           $update=$ayarkaydet2->execute(array(
-                'user_bakiye' => $deger1
+                'user_bakiye' => $deger2
             ));
 
 
