@@ -39,12 +39,22 @@ $oyunsor->execute();
 
 $urunsor=$db->prepare("SELECT * FROM bolfps_eloboostsiparis ORDER BY eloboostsiparis_id DESC");
 $urunsor->execute();
+$urunsay=$urunsor->rowCount();
+
+$urunsor2=$db->prepare("SELECT SUM(eloboostsiparis_fiyat) AS sayi FROM bolfps_eloboostsiparis");
+$urunsor2->execute();
+$urunsor2yaz= $urunsor2->fetch(PDO::FETCH_ASSOC);
+
+$urunsor3=$db->prepare("SELECT SUM(duoboostsiparis_fiyat) AS sayi2 FROM bolfps_duoboostsiparis");
+$urunsor3->execute();
+$urunsor3yaz= $urunsor3->fetch(PDO::FETCH_ASSOC);
 
 $urunsorv=$db->prepare("SELECT * FROM bolfps_valorantelosiparis ORDER BY valorantelosiparis_id DESC");
 $urunsorv->execute();
 
 $urunsorduo=$db->prepare("SELECT * FROM bolfps_duoboostsiparis ORDER BY duoboostsiparis_id DESC");
 $urunsorduo->execute();
+$urunsaydu=$urunsorduo->rowCount();
 
 $urunsorduov=$db->prepare("SELECT * FROM bolfps_valorantduoboostsiparis ORDER BY valorantduoboostsiparis_id DESC");
 $urunsorduov->execute();
