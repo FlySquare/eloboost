@@ -288,13 +288,13 @@ Düşük fiyat politikamız ile hesap garantisi sayesinde müşterilerimizi memn
 						<div class="call-to-action">
 							<div class="row">
 								<div class="col-md-4" style="justify-content: center;">
-                                    <a href="league-of-legends/eloboost.html"><img class="resim-ortala-gray" src="frontend/images/hizmetler/lol.png" height="130" width="130"></a>
+                                    <a href="lol-eloboost.php"><img class="resim-ortala-gray" src="frontend/images/hizmetler/lol.png" height="130" width="130"></a>
                                 </div>
+																<div class="col-md-4">
+																		<a href="javascprit:void();"></a>
+											</div>
                                 <div class="col-md-4">
-                                    <a href="team-fight-tactics.html"><img class="resim-ortala-gray" src="frontend/images/hizmetler/tft.png" height="150" width="150"></a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="valorant.html"><img class="resim-ortala-gray" src="frontend/valorant.png" height="150" width="150"></a>
+                                    <a href="valorant-eloboost.php"><img class="resim-ortala-gray" src="frontend/valorant.png" height="150" width="150"></a>
 								</div>
 							</div>
 						</div>

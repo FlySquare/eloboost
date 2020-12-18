@@ -8,7 +8,7 @@
 <head>
 		<meta charset="utf-8">
 		<meta name="google-site-verification" content="wthJJ3vAUvl4Aipo-_s0E-wkhz1UyxIJJoHoNeZAet4" />
-		<title>Eloboost Türkiye - Gizlilik Sözleşmesi
+		<title>Rihira Elo Boost - Gizlilik Sözleşmesi
  </title>
 		        <meta name="description" content="Türkiye'nin lider eloboost platformu! Bütün boost hizmetlerimiz profesyonel oyuncular tarafından yapılmaktadır.">
         		<meta name="keywords"
@@ -121,7 +121,6 @@
 							<b>GİZLİLİK VE GÜVENLİK POLİTİKASI</b>
 							<br>
 							<br>
-							Mağazamızda verilen tüm servisler Karşıyaka/İzmir adresinde kayıtlı  Oğuzcan Çomaoğlu şahıs firmamıza aittir ve firmamız tarafından işletilir.
 							<br>
 							<br>
 							Firmamız, çeşitli amaçlarla kişisel veriler toplayabilir. Aşağıda, toplanan kişisel verilerin nasıl ve ne şekilde toplandığı, bu verilerin nasıl ve ne şekilde korunduğu belirtilmiştir.
