@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 18, 2020 at 01:33 PM
+-- Generation Time: Dec 25, 2020 at 09:39 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.34
 
@@ -47,7 +47,7 @@ CREATE TABLE `bolfps_admin` (
 --
 
 INSERT INTO `bolfps_admin` (`user_id`, `user_username`, `user_sifre`, `user_isim`, `user_soyisim`, `user_eposta`, `user_tel`, `user_tarih`, `user_bakiye`, `user_sifrekod`, `user_sifreistek`, `asdsda`) VALUES
-(1, 'Abdullah Kılıç', '380bc53e3b5083e9b72c0efc675e6727', 'Abdullah', 'Kılıç', 'asd', 'a', '2020-12-05 17:34:23', 'a', 'a', '0', 1);
+(1, 'Abdullah Kılıç', '0cc175b9c0f1b6a831c399e269772661', 'Abdullah', 'Kılıç', 'asd', 'a', '2020-12-05 17:34:23', 'a', 'a', '0', 1);
 
 -- --------------------------------------------------------
 
